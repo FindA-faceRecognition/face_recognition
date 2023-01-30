@@ -1,0 +1,74 @@
+.widthsize{
+  width: 100%;
+  height: 100%;
+}
+#retry{
+  position: absolute;
+  animation: retry 2s infinite alternate;
+}
+@keyframes retry{
+  from{
+    position: absolute;
+    transform: rotate(360deg);
+  }
+  to{
+    position: absolute;
+    transform: rotate(0deg);
+  }
+}
+.pointer:hover{
+  cursor: pointer;
+  box-shadow: inset;
+  shape-outside: margin-box;
+}
+.widthsize1{
+  width: 100%;
+  height: 100%;
+}
+.harold{
+  animation: spin 2s  3 alternate ease-in-out;
+}
+.harold1{
+  animation: spin3 2s  3 alternate ease-in-out;
+}
+@keyframes spin3{
+  from{
+    transform: rotate(-270deg)
+  }
+  to{
+    transform: rotate(0)
+  }
+}
+
+.inspiration1{
+  animation: spin2 2s  3 alternate ease-in-out;
+}
+@keyframes spin2{
+  from{
+    transform: rotate(270deg)
+  }
+  to{
+    transform: rotate(0)
+  }
+}
+.inspiration{
+  animation: spin1 2s  3 alternate ease-in-out;
+}
+@keyframes spin{
+  from{
+    transform: translateX(-15%);
+  }
+  to{
+    transform: translateX(0%);
+
+  }
+}
+
+@keyframes spin1{
+  from{
+    transform: translateY(-25%);
+  }
+  to{
+    transform: translateY(0%);
+  }
+}
